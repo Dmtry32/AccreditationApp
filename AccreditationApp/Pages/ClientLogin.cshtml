@@ -1,0 +1,32 @@
+@page
+@model AccreditationApp.Pages.ClientLogin
+@{
+    ViewData["Title"] = "Client Login";
+}
+<h2>Client Login (Test MFA)</h2>
+<form method="post">
+    <div>
+        <label>Identifiant:</label>
+        <input asp-for="Identifier" required />
+    </div>
+    <div>
+        <label>Numéro de téléphone (pour test):</label>
+        <input asp-for="PhoneNumber" required />
+    </div>
+    <button type="submit">Recevoir le code SMS</button>
+</form>
+@if (Model.Sent)
+{
+    <form method="post" asp-page-handler="Verify">
+        <div>
+            <label>Code reçu par SMS:</label>
+            <input asp-for="Code" required />
+        </div>
+        <button type="submit">Vérifier le code</button>
+    </form>
+    <div style="color:green;">Un code a été envoyé à votre numéro.</div>
+}
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+    <div style="color:red;">@Model.ErrorMessage</div>
+}

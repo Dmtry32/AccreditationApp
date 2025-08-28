@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Accueil";
+}
+
+<div class="text-center">
+    <h1 class="display-4">BANQUE DE FRANCE</h1>
+    <h2>EUROSYSTÈME</h2>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <h5 class="card-title">Créer une accréditation</h5>
+                <p class="card-text">Formulaire de demande d'accréditation</p>
+                <a href="@Url.Action("Create", "Accreditation")" class="btn btn-primary">Accéder</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <h5 class="card-title">Voir les accréditations en cours</h5>
+                <p class="card-text">Liste des demandes en attente de traitement</p>
+                <a href="@Url.Action("Current", "Accreditation")" class="btn btn-primary">Accéder</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <h5 class="card-title">Voir l'historique des accréditations</h5>
+                <p class="card-text">Historique complet des demandes</p>
+                <a href="@Url.Action("History", "Accreditation")" class="btn btn-primary">Accéder</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-12 text-center">
+        <form asp-controller="Account" asp-action="Logout" method="post">
+            <button type="submit" class="btn btn-outline-secondary">Déconnexion</button>
+        </form>
+    </div>
+</div>

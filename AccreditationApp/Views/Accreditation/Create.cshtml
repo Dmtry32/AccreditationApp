@@ -1,0 +1,139 @@
+﻿@* @model AccreditationApp.Models.AccreditationModel
+
+@{
+    ViewData["Title"] = "Créer une accréditation";
+}
+
+<h1>BANQUE DE FRANCE</h1>
+<h2>Créer une accréditation</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="LastName" class="control-label">Nom</label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="FirstName" class="control-label">Prénom</label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="control-label">Adresse Email</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="BirthDate" class="control-label">Date de naissance</label>
+                <input asp-for="BirthDate" type="date" class="form-control" />
+                <span asp-validation-for="BirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Bank" class="control-label">Banque</label>
+                <select asp-for="Bank" class="form-control">
+                    <option value="">– Sélectionnez votre banque –</option>
+                    @foreach (var bank in ViewBag.Banks)
+                    {
+                        <option value="@bank">@bank</option>
+                    }
+                </select>
+                <span asp-validation-for="Bank" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <button type="submit" class="btn btn-primary">Enregistrer</button>
+                <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Retour à l'accueil</a>
+            </div>
+        </form>
+    </div>
+</div> *@
+
+                        @* fix version *@
+
+@model AccreditationApp.Models.AccreditationModel
+
+@{
+    ViewData["Title"] = "Créer une accréditation";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header text-center bg-primary text-white">
+                    <img src="~/Images/Logo.png" alt="Banque de France" class="img-fluid mb-3" style="max-height: 80px;">
+                    <h4>BANQUE DE FRANCE</h4>
+                    <h5>EUROSYSTÈME</h5>
+                    <h6>Créer une accréditation</h6>
+                </div>
+                <div class="card-body">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success">
+                            @TempData["SuccessMessage"]
+                        </div>
+                    }
+
+                    <form asp-action="Create" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="LastName" class="form-label">Nom</label>
+                                    <input asp-for="LastName" class="form-control" />
+                                    <span asp-validation-for="LastName" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label asp-for="FirstName" class="form-label">Prénom</label>
+                                    <input asp-for="FirstName" class="form-control" />
+                                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label">Adresse Email</label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="BirthDate" class="form-label">Date de naissance</label>
+                            <input asp-for="BirthDate" type="date" class="form-control" />
+                            <span asp-validation-for="BirthDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Bank" class="form-label">Banque</label>
+                            <select asp-for="Bank" class="form-control">
+                                <option value="">– Sélectionnez votre banque –</option>
+                                @foreach (var bank in ViewBag.Banks)
+                                {
+                                    <option value="@bank">@bank</option>
+                                }
+                            </select>
+                            <span asp-validation-for="Bank" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <button type="submit" class="btn btn-primary">Enregistrer</button>
+                            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Retour à l'accueil</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

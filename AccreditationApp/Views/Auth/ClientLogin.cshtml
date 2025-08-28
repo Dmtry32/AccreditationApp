@@ -1,0 +1,85 @@
+﻿@model AccreditationApp.Models.ClientLoginModel
+
+@{
+    ViewData["Title"] = "Connexion Client";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header text-center bg-primary text-white">
+                    <h4 class="mb-0">BANQUE DE FRANCE</h4>
+                    <h5 class="mb-0">EUROSYSTÈME</h5>
+                    <h6 class="mb-0">Connexion Client</h6>
+                </div>
+                <div class="card-body">
+                    @if (!Model.RequiresVerification)
+                    {
+                        <form asp-action="ClientLogin" method="post">
+                            <input type="hidden" name="action" value="sendCode" />
+
+                            <div class="mb-3">
+                                <label asp-for="Email" class="form-label">Adresse email</label>
+                                <input asp-for="Email" class="form-control" placeholder="votre@email.com" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary">Recevoir le code par email</button>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="ClientLogin" method="post">
+                            <input type="hidden" name="action" value="verifyCode" />
+                            <input type="hidden" asp-for="Email" />
+
+                            <div class="alert alert-info">
+                                @if (Context.Request.Host.Host == "localhost")
+                                {
+                                    <text>Mode test: Vérifiez la console pour le code</text>
+                                }
+                                else
+                                {
+                                    <text>Un code de vérification a été envoyé à @Model.Email</text>
+                                }
+                            </div>
+
+                            <div class="mb-3">
+                                <label asp-for="VerificationCode" class="form-label">Code de vérification</label>
+                                <input asp-for="VerificationCode" class="form-control" placeholder="Entrez le code reçu par email" />
+                                <span asp-validation-for="VerificationCode" class="text-danger"></span>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button type="submit" class="btn btn-primary">Vérifier le code</button>
+                                <a href="@Url.Action("ClientLogin")" class="btn btn-outline-secondary">Changer d'email</a>
+                            </div>
+                        </form>
+                    }
+
+                    @if (!string.IsNullOrEmpty(ViewBag.Message))
+                    {
+                        <div class="alert alert-success mt-3">@ViewBag.Message</div>
+                    }
+
+                    @if (Context.Request.Host.Host == "localhost")
+                    {
+                        <div class="mt-3 p-3 bg-light rounded">
+                            <h6></h6>
+                            <p class="mb-0"></p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
