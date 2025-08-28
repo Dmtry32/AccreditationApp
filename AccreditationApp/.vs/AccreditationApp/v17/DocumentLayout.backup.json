@@ -1,0 +1,476 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\models\\clientloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:models\\clientloginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:models\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\models\\accreditationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:models\\accreditationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\views\\auth\\clientlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:views\\auth\\clientlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\accreditationapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:accreditationapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\pages\\clientlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:pages\\clientlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:views\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\models\\accreditation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:models\\accreditation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\views\\accreditation\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:views\\accreditation\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\controllers\\accreditationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:controllers\\accreditationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\pages\\clientlogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:pages\\clientlogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\views\\accreditation\\current.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:views\\accreditation\\current.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\views\\accreditation\\current.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:views\\accreditation\\current.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\views\\accreditation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:views\\accreditation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\views\\accreditation\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:views\\accreditation\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|c:\\users\\administrator\\source\\repos\\v2\\accreditationapp\\models\\accreditationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94511AAA-CF0E-4028-A5E9-CCF071966887}|AccreditationApp.csproj|solutionrelative:models\\accreditationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-25T13:19:59.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T12:57:22.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccreditationModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\AccreditationModel.cs",
+              "RelativeDocumentMoniker": "Models\\AccreditationModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\AccreditationModel.cs",
+              "RelativeToolTip": "Models\\AccreditationModel.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:13:05.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAABgBAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T13:11:41.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientLoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\ClientLoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\ClientLoginModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\ClientLoginModel.cs",
+              "RelativeToolTip": "Models\\ClientLoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T12:23:37.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Models\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\EmailSettings.cs",
+              "RelativeToolTip": "Models\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T12:24:29.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Auth\\ClientLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\ClientLogin.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Auth\\ClientLogin.cshtml",
+              "RelativeToolTip": "Views\\Auth\\ClientLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T12:59:26.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Pages\\ClientLogin.cshtml",
+              "RelativeDocumentMoniker": "Pages\\ClientLogin.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Pages\\ClientLogin.cshtml",
+              "RelativeToolTip": "Pages\\ClientLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T21:37:21.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:36:16.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccreditationApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\AccreditationApp.csproj",
+              "RelativeDocumentMoniker": "AccreditationApp.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\AccreditationApp.csproj",
+              "RelativeToolTip": "AccreditationApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-25T13:21:03.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAALoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:09:47.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Accreditation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\Accreditation.cs",
+              "RelativeDocumentMoniker": "Models\\Accreditation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\Accreditation.cs",
+              "RelativeToolTip": "Models\\Accreditation.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T14:05:32.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T17:26:14.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Accreditation\\History.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\History.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Accreditation\\History.cshtml",
+              "RelativeToolTip": "Views\\Accreditation\\History.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T16:43:16.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:12:29.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T13:19:20.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccreditationController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Controllers\\AccreditationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccreditationController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Controllers\\AccreditationController.cs",
+              "RelativeToolTip": "Controllers\\AccreditationController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:15:21.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClientLogin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Pages\\ClientLogin.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\ClientLogin.cshtml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Pages\\ClientLogin.cshtml.cs",
+              "RelativeToolTip": "Pages\\ClientLogin.cshtml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T21:40:24.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Current.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Accreditation\\Current.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\Current.cshtml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Accreditation\\Current.cshtml.cs",
+              "RelativeToolTip": "Views\\Accreditation\\Current.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T11:39:57.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAADgBAAAAAAAAAAAAAP0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:14:14.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Current.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Accreditation\\Current.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\Current.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Accreditation\\Current.cshtml",
+              "RelativeToolTip": "Views\\Accreditation\\Current.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T13:17:32.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:14:52.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Accreditation\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Accreditation\\Create.cshtml",
+              "RelativeToolTip": "Views\\Accreditation\\Create.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T13:17:14.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T10:40:26.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T10:34:18.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Accreditation\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Views\\Accreditation\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Accreditation\\Create.cshtml.cs",
+              "RelativeToolTip": "Views\\Accreditation\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T18:50:36.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T13:16:14.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AccreditationStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\AccreditationStatus.cs",
+              "RelativeDocumentMoniker": "Models\\AccreditationStatus.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Source\\Repos\\V2\\AccreditationApp\\Models\\AccreditationStatus.cs",
+              "RelativeToolTip": "Models\\AccreditationStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T13:13:28.571Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

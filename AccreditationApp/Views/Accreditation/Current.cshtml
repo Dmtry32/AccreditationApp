@@ -1,0 +1,109 @@
+﻿@* @model List<AccreditationApp.Models.AccreditationModel>
+
+@{
+    ViewData["Title"] = "Mes accréditations en cours";
+}
+
+<h1>Mes accréditations en cours</h1>
+
+@if (Model.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Email</th>
+                <th>Date de naissance</th>
+                <th>Statut</th>
+                <th>Date de la demande</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.LastName</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.Email</td>
+                    <td>@item.BirthDate.ToString("dd/MM/yyyy")</td>
+                    <td>@item.Status</td>
+                    <td>@item.RequestDate.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">
+        Aucune accréditation en cours.
+    </div>
+}
+
+<div>
+    <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Retour à l'accueil</a>
+</div> *@
+
+                    @* fix after version *@
+
+@model IEnumerable<AccreditationApp.Models.Accreditation>
+
+@{
+    ViewData["Title"] = "Accréditations en cours";
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h2>BANQUE DE FRANCE - EUROSYSTÈME</h2>
+            <h3>Accréditations en cours</h3>
+        </div>
+        <div class="card-body">
+            @if (!Model.Any())
+            {
+                <div class="alert alert-info">
+                    Aucune accréditation en cours.
+                </div>
+            }
+            else
+            {
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Nom</th>
+                                <th>Prénom</th>
+                                <th>Email</th>
+                                <th>Date de naissance</th>
+                                <th>Banque</th>
+                                <th>Statut</th>
+                                <th>Date de demande</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.LastName</td>
+                                    <td>@item.FirstName</td>
+                                    <td>@item.Email</td>
+                                    <td>@item.BirthDate.ToString("dd/MM/yyyy")</td>
+                                    <td>@item.Bank</td>
+                                    <td>
+                                        <span class="badge bg-warning">@item.Status</span>
+                                    </td>
+                                    <td>@item.RequestDate.ToString("dd/MM/yyyy HH:mm")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+
+            <div class="mt-3">
+                <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Retour à l'accueil</a>
+            </div>
+        </div>
+    </div>
+</div>
