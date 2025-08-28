@@ -1,5 +1,13 @@
 # 🏦 Application d'Accréditation - Banque de France
 
+
+
+
+
+https://github.com/user-attachments/assets/1473158e-7b51-4c91-aee2-27ed413b8f6a
+
+
+
 ## 📋 Description du Projet
 Application web développée pour la gestion des processus d'accréditation de la Banque de France. Cette solution permet la soumission, le traitement et le suivi des demandes d'accréditation avec une interface sécurisée et des workflows automatisés.
 
