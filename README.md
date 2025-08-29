@@ -122,6 +122,20 @@ Les packages NuGet requis sont définis dans le fichier `.csproj`:
 
 ## 🚀 Déploiement
 
+
+
+
+
+
+
+
+
+
+
+
+<img width="1071" height="642" alt="capturereseaux" src="https://github.com/user-attachments/assets/c1106f06-c133-4f65-a60f-d940d801a016" />
+
+
 ### Étapes d'installation:
 1. **Cloner le repository**
    ```bash
